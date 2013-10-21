@@ -1,0 +1,6 @@
+inventory manager
+
+authentication
+API
+
+User logs on to InventoryManager[.azurewebsites].com
