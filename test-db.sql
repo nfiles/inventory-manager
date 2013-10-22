@@ -149,7 +149,7 @@ INSERT OR REPLACE INTO Item (ITEM_ID, Name, Location_ID)
         (100,'T-Square',1),
         (101,'Framing Square',1),
         (102,'Metal Yard Stick',1),
-        (103,'Metal 5'' Stick',1),
+        (103,'Metal 5 ft Stick',1),
         (104,'Torpedo Level',1),
         (105,'Level - 24 inches',1),
         (106,'Level - 48 inches',1),
@@ -212,21 +212,21 @@ INSERT OR REPLACE INTO Item (ITEM_ID, Name, Location_ID)
 
 INSERT OR REPLACE INTO Record (ITEM_ID, INVENTORY_ID, Count, Comments)
     VALUES
-        (99, 1, 4, ''),
-        (99, 2, 3, 'missing one'),
+        (99, 0, 4, ''),
+        (99, 1, 3, 'missing one'),
+        (99, 2, 4, ''),
         (99, 3, 4, ''),
         (99, 4, 4, ''),
-        (99, 5, 4, ''),
-        (99, 6, 5, 'new one?');
+        (99, 5, 5, 'new one?');
 
 INSERT OR REPLACE INTO Inventory (INVENTORY_ID, Date, Personnel)
     VALUES
-        (1,'2010-05-13 0:00:00','Scott Reinbold'),
-        (2,'2010-12-16 0:00:00','Scott Reinbold'),
-        (3,'2011-05-08 0:00:00','Nathan Files'),
-        (4,'2011-12-19 0:00:00','Nathan Files'),
-        (5,'2012-05-15 0:00:00','Nathan Files'),
-        (6,'2012-12-13 0:00:00','Nathan Files');
+        (0,'2010-05-13 0:00:00','Scott Reinbold'),
+        (1,'2010-12-16 0:00:00','Scott Reinbold'),
+        (2,'2011-05-08 0:00:00','Nathan Files'),
+        (3,'2011-12-19 0:00:00','Nathan Files'),
+        (4,'2012-05-15 0:00:00','Nathan Files'),
+        (5,'2012-12-13 0:00:00','Nathan Files');
 
 
 -- Test Queries
